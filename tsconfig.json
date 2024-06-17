@@ -6,6 +6,9 @@
     "paths": {
       "code-it-lib": [
         "./dist/code-it-lib"
+      ],
+      "ngx-code-it": [
+        "./dist/ngx-code-it"
       ]
     },
     "outDir": "./dist/out-tsc",
