@@ -1,0 +1,8 @@
+import { BaseEntity } from "./_base-entity.class";
+export class Application extends BaseEntity {
+    constructor() {
+        super(...arguments);
+        this.name = '';
+    }
+}
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYXBwbGljYXRpb24uY2xhc3MuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi8uLi8uLi9wcm9qZWN0cy9jb21tb24tbGliL3NyYy9saWIvZW50aXRpZXMvYXBwbGljYXRpb24uY2xhc3MudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsT0FBTyxFQUFFLFVBQVUsRUFBRSxNQUFNLHNCQUFzQixDQUFDO0FBRWxELE1BQU0sT0FBTyxXQUFZLFNBQVEsVUFBVTtJQUEzQzs7UUFDSSxTQUFJLEdBQVcsRUFBRSxDQUFDO0lBQ3RCLENBQUM7Q0FBQSIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IEJhc2VFbnRpdHkgfSBmcm9tIFwiLi9fYmFzZS1lbnRpdHkuY2xhc3NcIjtcclxuXHJcbmV4cG9ydCBjbGFzcyBBcHBsaWNhdGlvbiBleHRlbmRzIEJhc2VFbnRpdHkge1xyXG4gICAgbmFtZTogc3RyaW5nID0gJyc7ICAgIFxyXG59Il19

@@ -1,0 +1,15 @@
+import { envBase } from "./environment.base";
+export const environmentStaging = {
+    ...envBase,
+    stage: 'uat',
+    live: true,
+    production: false,
+    firebase: {
+        projectId: 'time-it-uat',
+        storageBucket: '',
+        apiKey: 'AIzaSyBBcvi1dgnMbVUU0nSS5RbztZ24CYAhIho',
+        authDomain: 'time-it-uat.firebaseapp.com',
+        messagingSenderId: '291494207232'
+    }
+};
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZW52aXJvbm1lbnQuc3RhZ2luZy5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uLy4uL3Byb2plY3RzL2NvbW1vbi1saWIvc3JjL2xpYi9lbnZpcm9ubWVudHMvZW52aXJvbm1lbnQuc3RhZ2luZy50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxPQUFPLEVBQUUsT0FBTyxFQUFFLE1BQU0sb0JBQW9CLENBQUM7QUFFN0MsTUFBTSxDQUFDLE1BQU0sa0JBQWtCLEdBQUc7SUFDaEMsR0FBRyxPQUFPO0lBRVYsS0FBSyxFQUFFLEtBQUs7SUFDWixJQUFJLEVBQUUsSUFBSTtJQUNWLFVBQVUsRUFBRSxLQUFLO0lBQ2pCLFFBQVEsRUFBRTtRQUNSLFNBQVMsRUFBRSxhQUFhO1FBQ3hCLGFBQWEsRUFBRSxFQUFFO1FBQ2pCLE1BQU0sRUFBRSx5Q0FBeUM7UUFDakQsVUFBVSxFQUFFLDZCQUE2QjtRQUN6QyxpQkFBaUIsRUFBRSxjQUFjO0tBQ2xDO0NBQ0YsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IGVudkJhc2UgfSBmcm9tIFwiLi9lbnZpcm9ubWVudC5iYXNlXCI7XHJcblxyXG5leHBvcnQgY29uc3QgZW52aXJvbm1lbnRTdGFnaW5nID0ge1xyXG4gIC4uLmVudkJhc2UsXHJcblxyXG4gIHN0YWdlOiAndWF0JyxcclxuICBsaXZlOiB0cnVlLFxyXG4gIHByb2R1Y3Rpb246IGZhbHNlLFxyXG4gIGZpcmViYXNlOiB7XHJcbiAgICBwcm9qZWN0SWQ6ICd0aW1lLWl0LXVhdCcsXHJcbiAgICBzdG9yYWdlQnVja2V0OiAnJyxcclxuICAgIGFwaUtleTogJ0FJemFTeUJCY3ZpMWRnbk1iVlVVMG5TUzVSYnp0WjI0Q1lBaElobycsXHJcbiAgICBhdXRoRG9tYWluOiAndGltZS1pdC11YXQuZmlyZWJhc2VhcHAuY29tJyxcclxuICAgIG1lc3NhZ2luZ1NlbmRlcklkOiAnMjkxNDk0MjA3MjMyJ1xyXG4gIH1cclxufTtcclxuIl19
