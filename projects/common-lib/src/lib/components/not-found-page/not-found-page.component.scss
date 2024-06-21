@@ -1,0 +1,30 @@
+@use "../../variables";
+
+.center-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 56px);
+}
+
+.card {
+  width: 650px;
+  padding: 60px;
+  background-color: variables.get-code-it-color('CodeItGrey1');
+  text-align: center;
+
+  mat-icon {
+    font-size: 100px;
+    width: 100px;
+    height: 100px;
+  }
+
+  h1 {
+    padding: 20px 0;
+  }
+  
+  button {
+    margin-top: 30px;
+    padding: 20px;
+  }
+}

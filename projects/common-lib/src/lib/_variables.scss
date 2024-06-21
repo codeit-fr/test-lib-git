@@ -1,0 +1,107 @@
+@function get-code-it-color($color) {
+  @if map-has-key($codeItPalette, $color) {
+    $color: map-get($codeItPalette, $color);
+  }
+
+  @else {
+    @warn 'The color #{$color} was not found in the palette'+'Available colors are: #{map-keys($codeItPalette)}';
+  }
+
+  @return $color;
+}
+
+/**
+  WARNING : If you are looking for a color from the creative it is probably in the map below.
+  To use those color please import the mixin and do it this way:
+  get-code-it-color($codeItPalette, 'CodeItGreyBlue')
+*/
+$codeItPalette: (
+  CodeItDark: #1A1A1A,
+  CodeItWhite: #FFFFFF,
+  CodeItPurple: #5050FF,
+  CodeItRed: #E73E3E,
+  CodeItGreen: #5DD67E,
+  CodeItYellow: #F8EB78,
+  CodeItBrown: #7D4511,
+  CodeItDarkBrown: #7D451166,
+  CodeItGrey1: #1F2224,
+  CodeItGrey2: #272B30,
+  CodeItGrey3: #6F767E,
+  CodeItGrey4: #FFFFFF00,
+  CodeItGreyBrown: #313131,
+  CodeItGreyBlue: #307379,
+  CodeItDarkGreyBlue: #0E568A80,
+  CodeItAquaGreen: #27A376,
+  CodeItDarkAquaGreen: #264C3F,
+  Disabled: #FFFFFF61,
+  HighEmphasis: #FFFFFFDE,
+  MediumEmphasis: #FFFFFF99
+);
+
+$black-87-opacity: rgba(black, 0.87);
+$white-87-opacity: rgba(white, 0.87);
+
+$primaryColor: get-code-it-color('CodeItGreyBlue');
+// Used in time entry TODO: Check why
+$textGreyColor: #EAEEF2;
+
+
+// Used in Firestore example page
+$backgroundInputGreyColor: #565656;
+
+$materialPalette: (
+  50: lighten($primaryColor, 25),
+  100: lighten($primaryColor, 20),
+  200: lighten($primaryColor, 15),
+  300: lighten($primaryColor, 10),
+  400: lighten($primaryColor, 5),
+  500: $primaryColor,
+  600: darken($primaryColor, 10),
+  700: darken($primaryColor, 15),
+  800: darken($primaryColor, 20),
+  900: darken($primaryColor, 25),
+  A100: purple,
+  A200: get-code-it-color('CodeItDark'),
+  //used in Fab button background-color
+  //#ffab40,
+  A400: green,
+  //#ff9100,
+  A700: #ff6d00,
+  contrast: (50: $black-87-opacity,
+    100: $black-87-opacity,
+    200: $black-87-opacity,
+    300: #f9f9f9,
+    400: $black-87-opacity,
+    500: white,
+    600: white,
+    700: white,
+    800: $white-87-opacity,
+    900: $white-87-opacity,
+    A100: $black-87-opacity,
+    A200: white,
+    A400: white,
+    A700: white,
+  ),
+);
+
+// BUTTON VARIABLES
+$button-border-radius: 40px;
+$button-height: 56px;
+$button-classic-border-color: get-code-it-color('CodeItWhite');
+$button-disabled-color: get-code-it-color('Disabled');
+
+// FORM FIELD VARIABLES
+$form-field-background-color: get-code-it-color('CodeItGrey4');
+$form-field-width: 100%;
+$form-field-floating-label-color-focused: get-code-it-color('Disabled');
+$form-field-input-text-color: get-code-it-color('CodeItWhite');
+$form-field-icon-suffix-color: get-code-it-color('CodeItWhite');
+
+// APP BAR
+$toolbarHeight: 90px;
+$toolbarTextColor: get-code-it-color('CodeItWhite');
+$toolbarIconButtonColor: get-code-it-color('CodeItGreyBlue');
+
+// CARD VARIABLES
+$cardTitleColor: get-code-it-color('CodeItGreyBlue');
+$cardSubTitleColor: get-code-it-color('CodeItWhite');

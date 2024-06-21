@@ -1,0 +1,62 @@
+@use "../../variables";
+
+:host {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.version-title {
+  text-transform: uppercase;
+  text-align: left;
+  color: variables.get-code-it-color('CodeItWhite');
+  border-bottom: 1px solid variables.get-code-it-color('CodeItRed');
+  padding-bottom: 10px;
+  font-size: 2em;
+  font-family: manrope-regular, sans-serif;
+}
+
+.version-part-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  @media (max-width: 650px) {
+    gap: 20px;
+  }
+}
+
+.version-part {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+
+  @media (max-width: 650px) {
+    flex-direction: column;
+    gap: 5px;
+  }
+}
+
+.version-part-name {
+  min-width: 250px;
+  color: variables.get-code-it-color('CodeItGrey3');
+  font-family: manrope-regular, sans-serif;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+}
+
+.version-number {
+  min-width: 200px;
+  color: variables.get-code-it-color('CodeItWhite');
+  font-family: manrope-regular, sans-serif;
+  font-size: 1.1rem;
+}
+
+.no-data-container {
+  display: flex;
+  justify-content: center;
+}
