@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'code-it-ngx-code-it',
+  selector: 'lib-ngx-code-it',
   standalone: true,
   imports: [],
   template: `
