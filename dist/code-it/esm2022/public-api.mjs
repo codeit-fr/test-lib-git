@@ -1,0 +1,6 @@
+/*
+ * Public API Surface of code-it
+ */
+export * from './lib/code-it.service';
+export * from './lib/code-it.component';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3Byb2plY3RzL2NvZGUtaXQvc3JjL3B1YmxpYy1hcGkudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7O0dBRUc7QUFFSCxjQUFjLHVCQUF1QixDQUFDO0FBQ3RDLGNBQWMseUJBQXlCLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyIvKlxyXG4gKiBQdWJsaWMgQVBJIFN1cmZhY2Ugb2YgY29kZS1pdFxyXG4gKi9cclxuXHJcbmV4cG9ydCAqIGZyb20gJy4vbGliL2NvZGUtaXQuc2VydmljZSc7XHJcbmV4cG9ydCAqIGZyb20gJy4vbGliL2NvZGUtaXQuY29tcG9uZW50JztcclxuIl19

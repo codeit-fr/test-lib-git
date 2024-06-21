@@ -11,6 +11,9 @@
     "noFallthroughCasesInSwitch": true,
     "skipLibCheck": true,
     "paths": {
+      "code-it": [
+        "./dist/code-it"
+      ],
       "ngx-code-it": [
         "./projects/ngx-code-it/src/public-api.ts"
       ]
