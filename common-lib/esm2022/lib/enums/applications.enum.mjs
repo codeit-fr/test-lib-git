@@ -1,0 +1,6 @@
+export var ApplicationsEnum;
+(function (ApplicationsEnum) {
+    ApplicationsEnum["TimeIt"] = "time-it";
+    ApplicationsEnum["Ticketing"] = "ticketing";
+})(ApplicationsEnum || (ApplicationsEnum = {}));
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYXBwbGljYXRpb25zLmVudW0uanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi8uLi8uLi9wcm9qZWN0cy9jb21tb24tbGliL3NyYy9saWIvZW51bXMvYXBwbGljYXRpb25zLmVudW0udHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsTUFBTSxDQUFOLElBQVksZ0JBR1g7QUFIRCxXQUFZLGdCQUFnQjtJQUN4QixzQ0FBa0IsQ0FBQTtJQUNsQiwyQ0FBdUIsQ0FBQTtBQUMzQixDQUFDLEVBSFcsZ0JBQWdCLEtBQWhCLGdCQUFnQixRQUczQiIsInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBlbnVtIEFwcGxpY2F0aW9uc0VudW0ge1xyXG4gICAgVGltZUl0ID0gJ3RpbWUtaXQnLFxyXG4gICAgVGlja2V0aW5nID0gJ3RpY2tldGluZydcclxufSJdfQ==
